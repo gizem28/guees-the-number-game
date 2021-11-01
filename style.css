@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(guessnumber.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+   font-family: 'Henny Penny', cursive;
+}
+main{
+   margin-top: 4em;
+   color:white;
+   text-align: center;
+   font-size: 3em;
+   font-weight: 800;
+   border-radius: 5px;
+   justify-content: lefts;
+}
+img{
+    height: 800px;
+    left: 600px;
+}
+input{
+    margin: 3em 1em;
+    width: 200px;
+    height: 2.5em;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 1em;
+}
+
+button{
+    margin: 2em 1em;
+    width: 100px;
+    height: 4em;
+    font-weight: 600;
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
